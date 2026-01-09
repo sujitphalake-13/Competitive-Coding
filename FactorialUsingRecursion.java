@@ -33,7 +33,7 @@ public class FactorialUsingRecursion{
 	   int number = sc.nextInt();  // Reading the number
 	   
 	   // Checking if the number is non-negative
-	    if(number > 0){
+	    if(number >= 0){
 	   
 	      long result = Factorial(number);
 		  System.out.println("Factorial of " + number + " is: " + result); 
