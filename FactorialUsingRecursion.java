@@ -14,7 +14,7 @@ public class FactorialUsingRecursion{
     // Recursive method to calculate factorial
     public static long Factorial(int num){
 	
-	    if( num <= 1 ){     // Base case: factorial of 0 or 1 is 1
+	    if( num <= 0 ){     // Base case: factorial of 0 or 1 is 1
 	       return 1; 
 	    }else{
 	       return num * Factorial(num-1); // Recursive call
