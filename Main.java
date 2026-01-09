@@ -1,7 +1,9 @@
 class Main {
 
   public static void main(String[] args) {
+    
     String line = "This website is aw3som3.";
+    
     int vowels = 0, consonants = 0, digits = 0, spaces = 0;
 
     line = line.toLowerCase();
@@ -34,17 +36,5 @@ class Main {
     System.out.println("Digits: " + digits);
     System.out.println("White spaces: " + spaces);
   }
-}public class Solution {
-    public static int calculateFactorial(int num) {
-        int factorial = 1;
-
-        if (num < 1)
-            return 1;
-
-        for (int i = num; i >= 1; i--) {
-            factorial = factorial * i;
-        }
-
-        return factorial;
-    }
 }
+
